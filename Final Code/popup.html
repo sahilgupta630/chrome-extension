@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AZ Problems To-Do</title>
+  <title>AZ Problem Tracker</title>
   <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <h1 class="title">My AZ Problems</h1>
-    <div class="bookmarks" id="bookmarks"></div>
+    <header>
+      <div class="logo-area">
+        <h1>AZ Tracker</h1>
+      </div>
+      <span id="version">v0.1</span>
+    </header>
+    <main>
+      <div class="bookmarks" id="bookmarks"></div>
+    </main>
+    <footer>
+      <button id="clear-all" class="secondary-btn">Clear All</button>
+    </footer>
   </div>
   <script src="popup.js"></script>
 </body>
