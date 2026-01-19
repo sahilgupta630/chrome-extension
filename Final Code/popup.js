@@ -13,6 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const currentBookmarks = data[AZ_PROBLEM_KEY] || [];
         viewBookmarks(currentBookmarks);
     });
+
+    const clearAllBtn = document.getElementById("clear-all");
+    if (clearAllBtn) {
+        clearAllBtn.addEventListener("click", onClearAll);
+    }
 });
 
 function viewBookmarks(bookmarks) {
@@ -92,6 +97,11 @@ function deleteItemFromStorage(idToRemove) {
     chrome.storage.sync.get([AZ_PROBLEM_KEY], (data) => {
         const currentBookmarks = data[AZ_PROBLEM_KEY] || [];
         const updatedBookmarks = currentBookmarks.filter((bookmark) => bookmark.id !== idToRemove);
-        chrome.storage.sync.set({ AZ_PROBLEM_KEY: updatedBookmarks });
-    })
+        chrome.storage.sync.set({ [AZ_PROBLEM_KEY]: updatedBookmarks });
+    });
+}
+
+function onClearAll() {
+    chrome.storage.sync.set({ [AZ_PROBLEM_KEY]: [] });
+    viewBookmarks([]);
 }
