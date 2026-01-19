@@ -1,57 +1,69 @@
-# Chrome Extension: Problem Tracker
+# 🧩 AZ Problem Tracker
 
-## Introduction  
-**Problem Tracker** is a Chrome extension that helps to bookmark and manage problems on the [maang.in](https://maang.in) website. This project is part of a hands-on experience of Chrome extension development, covering essential concepts like manifest files, storage APIs, and content scripts.
-
-With this extension, users can:  
-- Bookmark problems for later review.  
-- View and manage bookmarked problems directly from the extension.  
-- Learn key development concepts while building a practical tool.  
-
----
-
-## Repository Structure  
-
-This repository contains the following folders:  
-
-1. **Starter Files**:  
-   This folder includes the base setup for the project, with the essential files to kickstart development journey.  
-   Path: `Starter Files/`
-
-2. **Final Code**:  
-   This folder contains the complete and functional Chrome extension.  
-   Path: `Final Code/`
+<div align="center">
+  <p>
+    <strong>Track your AlgoZenith problems effortlessly with a modern, sleek Chrome Extension.</strong>
+  </p>
+  <p>
+    <a href="#features">Features</a> •
+    <a href="#installation">Installation</a> •
+    <a href="#usage">Usage</a>
+  </p>
+</div>
 
 ---
 
-## Getting Started  
+## 🚀 Overview
 
-### Prerequisites  
-- Basic knowledge of JavaScript, HTML, and CSS.  
-- A text editor (e.g., Visual Studio Code).  
-- Google Chrome browser for testing.
+**AZ Problem Tracker** is a powerful productivity tool designed for the [maang.in](https://maang.in) platform. It allows developers to bookmark coding problems, track their progress, and manage their to-do list directly from the browser toolbar. With a completely redesigned interface and enhanced performance, keeping track of your DSA journey has never been easier.
 
-### Installation  
+## ✨ Features
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd chrome-ext-problem-tracker
-   ```
+- **🔖 Seamless Bookmarking**: Adds a native-style "Bookmark" button directly to the problem page interface.
+- **🎨 Modern Aesthetics**: A beautiful, clean popup UI featuring **Inter** typography, hover effects, and a polished color palette.
+- **🔄 Sync Storage**: Your bookmarks utilize `chrome.storage.sync`, meaning they persist across all your logged-in Chrome devices.
+- **🔔 Smart Badge**: The extension icon displays a live badge count of your pending problems, keeping you motivated.
+- **⚡ One-Click Actions**: instantly open problems to solve or delete them when you're done.
+- **🧹 Clear All**: A "Clear All" utility to reset your list and start fresh.
 
-2. **Load the Extension in Chrome**  
-   - Open Chrome and go to `chrome://extensions/`.  
-   - Enable **Developer Mode** (toggle at the top-right).  
-   - Click on **Load unpacked** and select the `starter-files` or `final-code` folder.
+## 🛠️ Installation
+
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/sahilgupta630/chrome-extension.git
+    cd chrome-extension
+    ```
+
+2.  **Load into Chrome**
+    - Open Chrome and navigate to `chrome://extensions/`.
+    - Toggle **Developer Mode** on in the top right corner.
+    - Click **Load unpacked**.
+    - Select the **`Final Code`** folder from the cloned directory.
+
+3.  **Pin It!**
+    - Click the puzzle piece icon in your Chrome toolbar and pin **AZ Problem Tracker** for easy access.
+
+## 📖 Usage
+
+1.  Navigate to any problem on [maang.in](https://maang.in/problems).
+2.  You will see a blue **Bookmark** icon next to the "Ask Doubt" button. Click it to save the problem.
+3.  Click the extension icon to view your list.
+4.  Click the **Play** button to open a problem, or **Trash** to remove it.
+5.  Use **Clear All** in the footer to empty your list.
+
+## 📁 Project Structure
+
+```text
+chrome-extension/
+├── Final Code/          # 🟢 The complete, production-ready extension
+│   ├── assets/          # Icons and images
+│   ├── background.js    # Service worker for badge updates
+│   ├── content.js       # Content script for page integration
+│   ├── manifest.json    # Extension configuration (MV3)
+│   ├── popup.html       # Popup interface
+│   ├── popup.css        # Styling
+│   └── popup.js         # Popup logic
+└── Starter Files/       # 🟡 Boilerplate for learning purposes
+```
 
 ---
-
-## How to Use  
-
-1. Visit the [maang.in](https://maang.in) website.  
-2. Use the Problem Tracker extension to bookmark problems.  
-3. Access your saved bookmarks from the extension popup.
-
----
- 
-
