@@ -4,11 +4,7 @@
   <p>
     <strong>A modern, sleek Chrome Extension to effortlessly track your coding problems.</strong>
   </p>
-  <p>
-    <a href="#features">Features</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#usage">Usage</a>
-  </p>
+
 </div>
 
 ---
