@@ -1,8 +1,8 @@
-# 🧩 AZ Problem Tracker
+# 🧩 DSA Problem Tracker
 
 <div align="center">
   <p>
-    <strong>Track your AlgoZenith problems effortlessly with a modern, sleek Chrome Extension.</strong>
+    <strong>A modern, sleek Chrome Extension to effortlessly track your coding problems.</strong>
   </p>
   <p>
     <a href="#features">Features</a> •
@@ -15,16 +15,16 @@
 
 ## 🚀 Overview
 
-**AZ Problem Tracker** is a powerful productivity tool designed for the [maang.in](https://maang.in) platform. It allows developers to bookmark coding problems, track their progress, and manage their to-do list directly from the browser toolbar. With a completely redesigned interface and enhanced performance, keeping track of your DSA journey has never been easier.
+**DSA Problem Tracker** is a powerful productivity tool designed to help you keep track of problems on coding platforms (such as `maang.in`). It allows developers to bookmark coding problems, track their progress, and manage their to-do list directly from the browser toolbar. With a clean interface and optimized performance, keeping track of your problem-solving journey has never been easier.
 
 ## ✨ Features
 
 - **🔖 Seamless Bookmarking**: Adds a native-style "Bookmark" button directly to the problem page interface.
-- **🎨 Modern Aesthetics**: A beautiful, clean popup UI featuring **Inter** typography, hover effects, and a polished color palette.
+- **🎨 Modern Aesthetics**: A beautiful, clean popup UI with a polished color palette and typography.
 - **🔄 Sync Storage**: Your bookmarks utilize `chrome.storage.sync`, meaning they persist across all your logged-in Chrome devices.
 - **🔔 Smart Badge**: The extension icon displays a live badge count of your pending problems, keeping you motivated.
-- **⚡ One-Click Actions**: instantly open problems to solve or delete them when you're done.
-- **🧹 Clear All**: A "Clear All" utility to reset your list and start fresh.
+- **⚡ One-Click Actions**: Instantly open problems to solve or delete them when you're done.
+- **🧹 Clear All**: A utility to reset your list and start fresh.
 
 ## 🛠️ Installation
 
@@ -41,13 +41,13 @@
     - Select the **`Final Code`** folder from the cloned directory.
 
 3.  **Pin It!**
-    - Click the puzzle piece icon in your Chrome toolbar and pin **AZ Problem Tracker** for easy access.
+    - Click the puzzle piece icon in your Chrome toolbar and pin the extension for easy access.
 
 ## 📖 Usage
 
-1.  Navigate to any problem on [maang.in](https://maang.in/problems).
-2.  You will see a blue **Bookmark** icon next to the "Ask Doubt" button. Click it to save the problem.
-3.  Click the extension icon to view your list.
+1.  Navigate to a coding problem page (e.g., `maang.in/problems` for reference).
+2.  You will see a **Bookmark** icon. Click it to save the problem.
+3.  Click the extension icon in your browser to view your list.
 4.  Click the **Play** button to open a problem, or **Trash** to remove it.
 5.  Use **Clear All** in the footer to empty your list.
 
